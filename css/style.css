@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	background-color: #000000;
+	padding: 32px;
+}
+.banner{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+h1{
+	text-align: center;
+	font-size: 42px;
+	color: #ffffff;
+}
+span{
+color: #a50950;
+}
+.banner p{
+	font-size:20px;
+	letter-spacing: 1px;
+	padding: 10px;
+	color: #fdfdff;
+}
+.service{
+	background-color: darkcyan;
+}
+.service-box{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.service .content{
+	flex-basis: 33.33%;
+	padding: 20px;
+}
+.service .project {
+    border-color: #008b8b;
+    padding: 13px;
+    border-style: inset;
+}
+.service .content h2{
+	text-align:center;
+	color: #a50950;
+}
+.service .content p{
+	margin-top: 10px;
+	padding: 5px;
+	letter-spacing: 1px;
+}
+.pad{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pad p{
+	color: white;
+	font-size: 20px;
+}
+
+
+
+strong, b, i, .pad span {
+	display: inline-block;
+    color: #950950;
+    padding: 30px;
+    background: darkcyan;
+}
+
+
+
+
+
+
+
+
+
+/********************
+b{
+    display: inline-block;
+    color: #950950;
+    padding: 28px;
+    background: darkcyan;
+}
+
+i{
+	
+    display: inline-block;
+    color: #950950;
+    padding: 28px;
+    background: darkcyan;
+}
+
+.pad span{
+
+    display: inline-block;
+    color: #950950;
+    padding: 28px;
+    background: darkcyan;
+}
+
+****************/
+
